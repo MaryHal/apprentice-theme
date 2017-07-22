@@ -244,8 +244,10 @@
    `(magit-section-heading        ((,class (:foreground ,keyword :weight bold))))
    `(magit-section-highlight      ((,class (:background ,bg2))))
    ;; mode-line
-   `(mode-line ((,class (:foreground nil :background ,bg3 :box ,bg3))))
-   `(mode-line-inactive ((,class (:foreground ,fg1 :background ,bg1 :box ,bg1))))
+   `(mode-line
+     ((,class (:foreground nil :background ,bg4 :box (:line-width 6 :color ,bg4)))))
+   `(mode-line-inactive
+     ((,class (:foreground ,fg1 :background ,bg2 :box (:line-width 6 :color ,bg2)))))
    ;; mu4e
    `(mu4e-cited-1-face ((,class (:foreground ,fg2))))
    `(mu4e-cited-7-face ((,class (:foreground ,fg3))))
