@@ -135,6 +135,10 @@
    `(font-latex-match-reference-keywords ((,class (:foreground ,const))))
    `(font-latex-match-variable-keywords ((,class (:foreground ,var))))
    `(font-latex-string-face ((,class (:foreground ,str))))
+   ;; git-gutter
+   `(git-gutter:modified ((t (:foreground ,rainbow-6))))
+   `(git-gutter:added    ((t (:foreground ,rainbow-2))))
+   `(git-gutter:deleted  ((t (:foreground ,rainbow-9))))
    ;; gnus-group
    `(gnus-group-mail-1 ((,class (:foreground ,keyword :bold t))))
    `(gnus-group-mail-1-empty ((,class (:inherit gnus-group-mail-1 :bold nil))))
