@@ -104,6 +104,8 @@
    `(font-lock-type-face ((,class (:foreground ,type ))))
    `(font-lock-variable-name-face ((,class (:foreground ,var))))
    `(font-lock-warning-face ((,class (:foreground ,warning :background ,bg2))))
+   ;; anzu
+   `(anzu-mode-line ((t (:inherit mode-line :weight bold :foreground ,str))))
    ;; auto-complete
    `(ac-completion-face ((,class (:underline t :foreground ,keyword))))
    ;; company
