@@ -212,6 +212,8 @@
    ;; isearch
    `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
    `(isearch-fail ((,class (:foreground ,bg1 :background ,warning))))
+   ;; ivy
+   `(ivy-current-match ((,class (:inherit default))))
    ;; jde-java
    `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
    `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
