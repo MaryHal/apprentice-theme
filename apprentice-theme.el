@@ -58,8 +58,8 @@
 
       (rainbow-1 "#ffffff")
       (rainbow-2 "#8fadd7")
-      (rainbow-3 "#bd93f9")
-      (rainbow-4 "#ff79c6")
+      (rainbow-3 "#A37ED8")
+      (rainbow-4 "#BD7496")
       (rainbow-5 "#8787af")
       (rainbow-6 "#87af87")
       (rainbow-7 "#ffffaf")
